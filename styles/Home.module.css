@@ -43,6 +43,13 @@
   align-items: center;
 }
 
+.title {
+  color: #ffffff;
+  margin-top: 25px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -120,6 +127,10 @@
 
 .logo {
   height: 1em;
+}
+
+.main h2, .main h3 {
+  color: #ffffff;
 }
 
 @media (max-width: 600px) {
