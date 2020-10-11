@@ -37,6 +37,12 @@ export default function Home() {
         <h2>Reparación de lavadoras</h2>
         <hr />
         <p className="center-text" style={{ textAlign: 'center' }}>¿Tú lavadora ya no lava cómo antes? ¿se mueve de lugar a lugar a la hora de prender la lavadora? Será mejor que llame a un técnico para evitar un problema mayor, por lo que lo invitamos a ponerse en contacto con nosotros para ofrecerle un servicio de excelencia.</p>
+        <h2 className="pt-5">Reparación de secadoras</h2>
+        <hr />
+        <p className="center-text" style={{ textAlign: 'center' }}>Contamos con técnicos altamente calificados para reparación y mantenimiento de secadoras. Sí ha notado que su secadora ya no trabaja como antes contáctenos ¡hoy mismo!</p>
+        <h2 className="pt-5">Reparación de refrigeradores</h2>
+        <hr />
+        <p className="center-text" style={{ textAlign: 'center' }}>Hoy en día, el refrigerador es el electrodoméstico más utilizado, por esto que es tan importante que funcione de la mejor manera. Si usted nota que ya no enfría como antes póngase en contacto con nosotros de inmediato.</p>
       </main>
 
       <footer className={styles.footer} style={{ textAlign: 'center', flexDirection: 'column', padding: '0' }}>
