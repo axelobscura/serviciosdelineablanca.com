@@ -20,9 +20,7 @@ export default function Home() {
           <button type="button" className="btn btn-primary mr-2">MÁS INFORMACIÓN</button>
           <button type="button" className="btn btn-primary">PÓNGASE EN CONTACTO</button>
         </div>
-
       </main>
-
       <footer className={styles.footer} style={{ textAlign: 'center', flexDirection: 'column', padding: '0' }}>
         <b>SERVICIOS DE LÍNEA BLANCA</b>CDMX, Estado de México, Toluca, Metepec, Lerma<br />(55)6235-3054
       </footer>
