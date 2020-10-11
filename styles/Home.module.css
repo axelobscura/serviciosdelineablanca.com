@@ -5,6 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("https://media3.webcollage.net/4c6980655f1bf37daec76fa6699d9af10f38863d?response-content-type=image%2Fjpeg&AWSAccessKeyId=AKIAIIE5CHZ4PRWSLYKQ&Expires=1893466398&Signature=TT5wtUEMV73vh79EYVwIP7deVIk%3D") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .main {
@@ -14,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .footer {
@@ -23,6 +29,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #fff;
+  box-shadow: 0 0 10px #000000;
 }
 
 .footer img {
