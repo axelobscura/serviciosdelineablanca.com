@@ -134,6 +134,7 @@
 .main h2, .main h3 {
   color: #ffffff;
   text-shadow: 2px 2px 5px #000000;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
