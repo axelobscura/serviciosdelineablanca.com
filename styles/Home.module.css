@@ -22,10 +22,11 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
 }
 
 .mainDos {
-  padding: 5rem 0;
+  padding: 5rem 10rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -153,9 +154,8 @@
 
 .mainDos h2, .mainDos h3, .mainDos p {
   color: #333;
-  text-shadow: 2px 2px 5px #000000;
+  text-shadow: none;
   text-align: center;
-  padding: 10px 70px;
 }
 
 .mainDos {

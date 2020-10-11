@@ -37,10 +37,6 @@ export default function Home() {
         <h2>Reparación de lavadoras</h2>
         <hr />
         <p className="center-text" style={{ textAlign: 'center' }}>¿Tú lavadora ya no lava cómo antes? ¿se mueve de lugar a lugar a la hora de prender la lavadora? Será mejor que llame a un técnico para evitar un problema mayor, por lo que lo invitamos a ponerse en contacto con nosotros para ofrecerle un servicio de excelencia.</p>
-        <div className="btn-group btn-group-toggle" data-toggle="buttons">
-          <button type="button" className="btn btn-primary mr-2" onClick={masInfo}>MÁS INFORMACIÓN</button>
-          <button type="button" className="btn btn-primary" onClick={masContacto}>PÓNGASE EN CONTACTO</button>
-        </div>
       </main>
 
       <footer className={styles.footer} style={{ textAlign: 'center', flexDirection: 'column', padding: '0' }}>
