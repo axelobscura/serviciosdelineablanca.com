@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import Reat, { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
@@ -24,7 +24,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>SERVICIOS ESPECIALIZADOS<br/>DE LÍNEA BLANCA</h1>
         <h2>(55)6235-3054</h2>
-        <h3>CDMX, Estado de México, Toluca, Metepec, Lerma</h3>
+        <h3>CDMX y Estado de México</h3>
         <p className="center-text" style={{ textAlign: 'center' }}><b>Contamos con técnicos capacitados</b><br />Somos el servicio de linea blanca en donde atendemos todos sus requerimientos<br />Reparación, Servicio de Mantenimiento e instalación de lavadoras, refrigeradores, secadoras, centros de lavado, lavavajillas, estufas y hornos de gas.</p>
         <div className="btn-group btn-group-toggle" data-toggle="buttons">
           <button type="button" className="btn btn-primary mr-2" onClick={masInfo}>MÁS INFORMACIÓN</button>
