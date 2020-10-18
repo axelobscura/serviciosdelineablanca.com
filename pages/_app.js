@@ -14,7 +14,7 @@ if (typeof window !== 'undefined') {
     s.src = url + '/widget-send-button/js/init.js';
     s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
       var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
+  })();
 }
 
 function MyApp({ Component, pageProps }) {

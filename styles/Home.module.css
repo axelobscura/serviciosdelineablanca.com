@@ -167,4 +167,14 @@
     width: 100%;
     flex-direction: column;
   }
+  .title {
+    font-size: 2rem;
+    color: #f2f2f2;
+  }
+  .main {
+    width: 100vh;
+  }
+  .mainDos {
+    padding: 0 10px;
+  }
 }
