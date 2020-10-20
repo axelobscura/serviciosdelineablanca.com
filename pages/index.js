@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
 
   const masInfo = (e) => {
-    console.log('amigo');
+    console.log('amigo esta es una prueba');
   }
 
   const masContacto = (e) => {
